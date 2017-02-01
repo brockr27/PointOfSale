@@ -1,0 +1,32 @@
+// MenuItem class declaration
+class MenuItem
+{
+	private:
+		int item_id;
+		string item_desc;
+		double item_price;
+};
+
+class Employee
+{
+	private:
+		int empNum;
+		string empName;
+		double hours;
+};
+
+class OrderTicket
+{
+	private:
+		int order_id, empNum, tableNum, tableSeatNum, item_id, itemQuantity;
+		string item_desc;
+		double order_Time_In;
+}
+
+class ReceiptTicket
+{
+	private:
+		int order_id, empNum, tableNum, item_id, itemQuantity;
+		string item_desc;
+		double item_price, receiptTotal, tax, discounts;
+}
